@@ -3,7 +3,7 @@
 </script>
 
 
-<Grid>
+<Grid style="height:100vh;">
   <Row  style="padding-top: 2%;">
     <Column  sm={10} md={4} lg={{ span: 10, offset: 1 }}>
         <slot name="content" />

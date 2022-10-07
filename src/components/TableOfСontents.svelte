@@ -1,10 +1,7 @@
 <script>
 import { TileGroup, RadioTile } from "carbon-components-svelte";
-    
-    
 
-
-    export let selectedSection, values;
+export let selectedSection, values;
 </script>
 
 
@@ -17,8 +14,8 @@ import { TileGroup, RadioTile } from "carbon-components-svelte";
     }}
 	>
 	{#each values as value}
-		<RadioTile {value} checked={selectedSection === value}>{value}</RadioTile>
+		<RadioTile style="background-color: {value.color};" {value} checked={selectedSection === value}>{value.text}</RadioTile>
 	{/each}
 	<!-- <RadioTile value="10"  disabled>{}</RadioTile> -->
-	<h2>{selectedSection}</h2>
+	<h2 style="color: {selectedSection.color};">{selectedSection.text}</h2>
 </TileGroup>
