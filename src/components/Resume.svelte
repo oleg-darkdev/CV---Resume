@@ -5,67 +5,75 @@
 
   const skillsList = [
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/HTML5.png',
+		text: 'HTML5'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/CSS3.png',
+		text: 'CSS3'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/github.png',
+		text: 'GITHUB'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/js.png',
+		text: 'Javascript'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/linux.png',
+		text: 'Linux'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/m-3.png',
+		text: 'M 3.0'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/nodeJs.png',
+		text: 'NodeJS'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/scrum.png',
+		text: 'Scrum'
 	},
 	{
-		img: '',
-		text: ''
-	},
-	{
-		img: '',
-		text: ''
-	},
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/skills/design.png',
+		text: 'Design'
+	}
   ];
 
 const toolsList = [
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/XD.png',
+		text: 'adobe XD'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/holacracy.png',
+		text: 'Holacracy'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/mongodb.png',
+		text: 'Mongo DB'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/svelteJs.png',
+		text: 'Svelte JS'
 	},
 	{
-		img: '',
-		text: ''
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/vueJs.png',
+		text: 'Vue JS'
+	},
+	{
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/webpack.png',
+		text: 'Webpack'
+	},
+	{
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/figma.png',
+		text: 'Figma'
+	},
+	{
+		img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/resume/tools/illustrator.png',
+		text: 'Illustrator'
 	},
   ];
 </script>
@@ -81,7 +89,7 @@ const toolsList = [
             {#each selectedIndex == 0 ? skillsList : toolsList as item}
                 <div  class="column skill-toll-container">
                     <div style="background-image: url({item.img});"class="skill-img"></div>
-                    <h2>{item.text}</h2>
+                    <h2 style="text-align: center;">{item.text}</h2>
                 </div>
             {/each}
     </div>
@@ -97,9 +105,10 @@ const toolsList = [
 	}
 
     .skill-img {
-		background-color: #fff;
+		/* background-color: #fff; */
 		width: 140px;
 		height: 140px;
+		/* border: 2px solid #fff; */
 		
 	}
 
@@ -108,6 +117,6 @@ const toolsList = [
 		width:100%;
 	}
 	.skill-toll-container {
-		margin: 0.6%;
+		margin:  0 0.6%  25px 0.4%;
 	}
 </style>
