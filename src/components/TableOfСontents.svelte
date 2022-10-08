@@ -17,5 +17,7 @@ export let selectedSection, values;
 		<RadioTile style="background-color: {value.color};" {value} checked={selectedSection === value}>{value.text}</RadioTile>
 	{/each}
 	<!-- <RadioTile value="10"  disabled>{}</RadioTile> -->
-	<h2 style="color: {selectedSection.color};">{selectedSection.text}</h2>
 </TileGroup>
+
+
+<h2 style=" font-size: 6vw;">{selectedSection.text}</h2>
