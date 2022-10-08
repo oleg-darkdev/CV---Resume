@@ -13,7 +13,7 @@
 
 	let values = [
 		{
-		text: 'Home',
+		text: 'Hello',
 		color: ''
 		// #E91E63
 	},
@@ -40,7 +40,7 @@ let selectedSection = values[0];
 
 {#if selectedSection.text == values[0].text}
 <SectionBg bgColor={selectedSection.color}>
-		<Grid>
+		<Grid justifyContent={'flex-end'}>
 		<Main slot="content" />
 		<TableOfContents bind:selectedSection bind:values slot="TOC"/>
 	</Grid>
@@ -49,7 +49,7 @@ let selectedSection = values[0];
 
 {#if selectedSection.text == values[1].text}
 <SectionBg bgColor={selectedSection.color}>
-	<Grid>
+	<Grid justifyContent={'flex-end'}>
 		<Bio  slot="content" />
 		<TableOfContents bind:selectedSection bind:values slot="TOC"/>
 	</Grid>
@@ -58,7 +58,7 @@ let selectedSection = values[0];
 
 {#if selectedSection.text == values[2].text}
 <SectionBg bgColor={selectedSection.color}>
-	<Grid>
+	<Grid justifyContent={'center'}>
 		<Resume slot="content"/>
 		<TableOfContents bind:selectedSection bind:values slot="TOC"/>
 	</Grid>
