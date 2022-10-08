@@ -7,7 +7,7 @@
     };
 </script>
 
-<div class="row flex-wrap">
+<div class="row flex-wrap" style="padding-top: 60px; justify-content: flex-end; ">
     {#if showSection.personal}
         <PersonalInfo dataComplete={aboutData.personal.dataComplete} dataHeadersComplete={aboutData.personal.headersComplete}  params={[true, false, false, false]} bind:showSection  description={`Your organization's active load balancers.`} title={`Personal infos`}/>
     {/if}
@@ -24,5 +24,6 @@
     
 
 <style>
-
+ div {
+ }
 </style>
