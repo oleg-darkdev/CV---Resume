@@ -77,7 +77,6 @@ let aboutData = {
 			{ key: 'value', value: 'Description' }
 		],
 		dataComplete: [
-			// Volunteerism  Experience
 			{
 				id: 1,
 				name: ``,
@@ -199,119 +198,32 @@ let aboutData = {
 			{ key: 'value', value: 'Description' }
 		],
 		dataComplete: [
-			// Volunteerism  Experience
 			{
 				id: 1,
-				name: ``,
-				value: ''
+				name: `📅 2018-2019`,
+				value: 'Role: Full-stack Developer. Organization:  https://it.falanster.by/.'
 			},
 			{
 				id: 2,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
+				name: `📅 2019-2022`,
+				value: 'Role: Food distribution to the homeless. Organization: Food Not Bombs.'
 			},
 			{
 				id: 3,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
+				name: `📅 2022 - ....`,
+				value: 'Role: Designer / Translator. Organization: Caritas Polska.'
 			},
 			{
 				id: 4,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
+				name: `📅 2022 - ....`,
+				value:
+					'Role: Organizer and facilitator of workshops. Organization: Alternatywy 5 Dom Sąsiedzki.'
 			},
 			{
 				id: 5,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 6,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 7,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 8,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 9,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 10,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 11,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 12,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 13,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 14,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 15,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 16,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 17,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 18,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
-			},
-			{
-				id: 19,
-				name: `📅  2018-2019:
-            Web Developer`,
-				value: ''
+				name: `📅 2022 - ....`,
+				value:
+					'Role: Translator, food distribution for refugees. Organization: Sopockie Centrum Wolontariatu.'
 			}
 		]
 	}
