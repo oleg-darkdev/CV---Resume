@@ -3,9 +3,9 @@
 </script>
 
 
-<Grid style="height:100vh;">
+<Grid style="min-height:100vh; height: auto;">
   <Row  style="padding-top: 2%;">
-    <Column  sm={10} md={4} lg={{ span: 10, offset: 1 }}>
+    <Column style="display: flex; align-items: center;" sm={10} md={4} lg={{ span: 10, offset: 1 }}>
         <slot name="content" />
 	</Column>
     <Column sm={{ span: 12, offset: 0 }} md={1} lg={3} style="padding-top: 8%;">

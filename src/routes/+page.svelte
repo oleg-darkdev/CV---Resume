@@ -85,7 +85,7 @@ let selectedSection = values[0];
 
 
 <style>
-	:global(html, body) {height: 100%; margin:0; padding:0}
+	:global(html, body) {height: auto; min-height: 100%; margin:0; padding:0}
 	:global(.row, .column) {
 		display: flex;
 	}
