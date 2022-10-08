@@ -18,9 +18,10 @@ export let dataHeadersComplete, dataComplete, title, description, params, showSe
 
 
 
-<DataTable style="min-width: 380px; max-width: 455px; margin: 7px;" 
+<DataTable style="min-width: 380px; max-width: 445px; margin: 7px;" 
   headers={headersData}
   rows={dataTable}
+  size="tall"
 >
   <strong slot="title">{title}</strong>
   <span slot="description" style="font-size: 1rem">
