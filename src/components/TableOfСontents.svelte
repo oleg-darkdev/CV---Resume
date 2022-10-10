@@ -10,13 +10,10 @@ export let selectedSection, values;
 	legend=""
 	on:select={({ detail }) => {
         (selectedSection = detail)
-        console.log((selectedSection))
-    }}
-	>
+    }}>
 	{#each values as value}
 		<RadioTile style="background-color: {value.color};" {value} checked={selectedSection === value}>{value.text}</RadioTile>
 	{/each}
-	<!-- <RadioTile value="10"  disabled>{}</RadioTile> -->
 </TileGroup>
 
 
