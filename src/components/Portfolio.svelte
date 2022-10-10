@@ -1,49 +1,20 @@
 <script>
-  import { Tile } from "carbon-components-svelte";
-
-
-const portfolioProjects = [
-	{
-		img: '',
-		text: '',
-		github: ''
-	},
-	{
-		img: '',
-		text: '',
-		github: ''
-	},
-	{
-		img: '',
-		text: '',
-		github: ''
-	},
-	{
-		img: '',
-		text: '',
-		github: ''
-	},
-	{
-		img: '',
-		text: '',
-		github: ''
-	},
-];
+	import Project from './Portfolio/Project.svelte';
+	import projectsData from '../lib/data/projects';
 </script>
 
-
-
 <div class="projects-wrap row flex-wrap">
-    {#each portfolioProjects as project}
-        <Tile style="background-image: url({project.img}); width: 432px; height: 226px; margin: 0.3%; "></Tile>
-        <!-- border: 2px solid #fff; -->
+    {#each projectsData as project}
+		<Project {project}/>
     {/each}
 </div>
 
-<style>
 
+<style>
 	.projects-wrap {
-		justify-content: space-between;
+		justify-content: center;
 		flex-direction: row;
+		align-content: center;
+		width: 100%;
 	}
 </style>
