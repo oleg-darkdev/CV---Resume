@@ -100,4 +100,8 @@ let selectedSection = values[0];
 	:global(.flex-wrap) {
 		flex-wrap: wrap;
 	}
+
+	:global(.mb-15) {
+		margin-bottom: 15px;
+	}
 </style>
