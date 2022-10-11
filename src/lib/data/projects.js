@@ -150,7 +150,7 @@ const portfolioProjects = {
 			}
 		},
 		{
-			img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/portfolio/pomodoro%20calculator.png',
+			img: 'https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/portfolio/codewars.png',
 			text: 'Codewars',
 			bgColor: '#673AB7',
 			textColor: '#fff',
