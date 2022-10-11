@@ -10,7 +10,7 @@
     export let projectslist, showThisList, titleText;
 </script>
 
-<div class="column display-none" style="margin-bottom: 5px; ">
+<div class="column" style="margin-bottom: 5px; ">
     <ClickableTile style="" on:click="{() => {showThisList = !showThisList}}">
         <div class="row title-wrap">
             <h2 style="margin-left: 7%;">{titleText}</h2>
