@@ -67,7 +67,7 @@ let selectedSection = values[0];
 
 {#if selectedSection.text == values[3].text}
 <SectionBg bgColor={selectedSection.color}>
-	<Grid>
+	<Grid justifyContent={'flex-end'}>
 		<Portfolio slot="content"/>
 		<TableOfContents bind:selectedSection bind:values slot="TOC"/>
 	</Grid>
@@ -104,4 +104,8 @@ let selectedSection = values[0];
 	:global(.mb-15) {
 		margin-bottom: 15px;
 	}
+
+	:global(.display-none) {
+        display: none;
+    }
 </style>
