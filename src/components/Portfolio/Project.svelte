@@ -28,11 +28,13 @@ export let project;
         </div>
 
         <ButtonSet style="margin-bottom: 35px;">
-            <Button style="width: 160px;" kind="secondary">Github</Button>
-            <Button  style="width: 160px;" kind="tertiary">Web App</Button>
+            <Button style="width: 160px;"  class="{project.description.github ? '': 'display-none'}" kind="secondary">Github</Button>
+            <Button  style="width: 160px;" class="{project.description.site ? '': 'display-none'}" kind="primary">Web App</Button>
         </ButtonSet>
     </div>
 </div>
 </ExpandableTile>
 
 
+
+        
