@@ -1,7 +1,7 @@
 <script>
-import { TileGroup, RadioTile } from "carbon-components-svelte";
-
-export let selectedSection, values;
+	import { TileGroup, RadioTile } from "carbon-components-svelte";
+	
+	export let selectedSection, values;
 </script>
 
 
@@ -16,5 +16,5 @@ export let selectedSection, values;
 	{/each}
 </TileGroup>
 
+<h2  style=" font-size: 6vw;">{selectedSection.text}</h2>
 
-<h2 style=" font-size: 6vw;">{selectedSection.text}</h2>
