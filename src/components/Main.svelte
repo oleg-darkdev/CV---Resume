@@ -7,7 +7,7 @@
 
 	</div>
 	<div class="text column" style="">
-	<h1 style="font-size: 20vw; margin-bottom: 25px; ">Hi 👐, I`m Oleg Medvedev</h1>
+	<h1 style="font-size: 20vw; margin: 0 0 25px 0; ">Hi 👐, I`m Oleg Medvedev</h1>
 	<h2> 🛠  Engineer</h2>
 	<h2>📟 IT enthusiast</h2>
 	<h2>🎲 Boardgames creator</h2>
@@ -29,9 +29,9 @@
 	.avatar, .text {
 		min-width: 365px;
 		width: auto;
-		max-width: 400px;
+		max-width: 390px;
 		height: 650px;
-		margin: 0 1vw  15px 0;
+		margin: 0 0  15px 0;
 	}
 
 	.avatar {
