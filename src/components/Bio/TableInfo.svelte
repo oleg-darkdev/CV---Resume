@@ -17,8 +17,8 @@ export let dataHeadersComplete, dataComplete, title, description, params, showSe
 
 
 
-
-<DataTable style="width: 100%; max-width: 445px; margin: 7px;" 
+<div style="max-width: 400px; width: 100%; margin: 7px">
+<DataTable style="width: 100%;" 
   headers={headersData}
   rows={dataTable}
   size="tall"
@@ -36,3 +36,8 @@ export let dataHeadersComplete, dataComplete, title, description, params, showSe
     </ToolbarContent>
   </Toolbar>
 </DataTable>
+</div>
+
+<style>
+
+</style>
