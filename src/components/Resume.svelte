@@ -1,8 +1,7 @@
 <script>
 	import { ContentSwitcher, Switch } from "carbon-components-svelte";	
 	import resumeData from '../lib/data/resume';
-	
-	
+
 
   let selectedIndex = 1;
 
@@ -15,9 +14,10 @@
         <Switch text="My Tools" />
     </ContentSwitcher>
 
+	
     <div style="justify-content: {selectedIndex == 0 ? "start" : "end"};" class="row skill-toll-wrap flex-wrap">
             {#each selectedIndex == 0 ? resumeData.skillsList : resumeData.toolsList as item}
-                <div  class="column skill-toll-container" on:click={() => window.open(item.link, "_blank")}>
+                <div class="column skill-toll-container" on:click={() => window.open(item.link, "_blank")}>
                     <div style="background-image: url({item.img});" class="skill-img"></div>
                     <!-- <h2 style="text-align: center;">{item.text}</h2> -->
 					<a href={item.link}>{item.text}</a>
