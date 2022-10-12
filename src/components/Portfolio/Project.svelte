@@ -7,7 +7,7 @@ export let project;
 </script>
 
 
-<ExpandableTile style="width: 380px; border: 2px solid #fff; margin: 0.3%; padding: 0;  background-image: url({project.img});">
+<ExpandableTile style="width: 320px; border: 2px solid #fff; margin: 0.4%; padding: 0; background-position: center; background-repeat: no-repeat; background-size: cover;  background-image: url({project.img});">
     <div slot="above" style="height: 12rem"/>
     
     <div slot="below" style="background-color: {project.bgColor}; width: 100%; color: {project.textColor}; height: auto;">

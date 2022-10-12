@@ -18,7 +18,7 @@ export let dataHeadersComplete, dataComplete, title, description, params, showSe
 
 
 
-<DataTable style="min-width: 380px; max-width: 445px; margin: 7px;" 
+<DataTable style="width: 100%; max-width: 445px; margin: 7px;" 
   headers={headersData}
   rows={dataTable}
   size="tall"

@@ -23,7 +23,7 @@
 
     {#if showThisList}  
         <Tile style="margin: -5px 0 15px 0 ;">        
-            <div style="margin: 0 0 25px 0;" class="projects-wrap row flex-wrap mb-15">
+            <div style="margin: 0 0 25px 0;" class="projects-wrap row flex-wrap">
                 {#each projectslist as project}
                     <Project {project}/>
                 {/each}
