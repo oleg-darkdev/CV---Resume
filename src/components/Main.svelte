@@ -3,11 +3,11 @@
 </script>
 
 <div class="row flex-wrap main-wrap" >
-	<div class="avatar" style="background-image: url(https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/photo//my_photo_1.png);">
+	<div class="avatar" style="margin: 0; padding: 0; background-image: url(https://raw.githubusercontent.com/oleg-darkdev/CV---Resume/master/src/lib/images/photo//my_photo_1.png);">
 
 	</div>
 	<div class="text column" style="">
-	<h1 style="font-size: 90px; margin-bottom: 25px;">Hi 👐, I`m Oleg Medvedev</h1>
+	<h1 style="font-size: 20vw; margin-bottom: 25px; ">Hi 👐, I`m Oleg Medvedev</h1>
 	<h2> 🛠  Engineer</h2>
 	<h2>📟 IT enthusiast</h2>
 	<h2>🎲 Boardgames creator</h2>
@@ -27,7 +27,7 @@
 		width: 100%;
 	}
 	.avatar, .text {
-		min-width: 380px;
+		min-width: 365px;
 		width: auto;
 		max-width: 400px;
 		height: 650px;

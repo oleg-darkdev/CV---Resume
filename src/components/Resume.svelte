@@ -88,7 +88,7 @@ const toolsList = [
     <div style="justify-content: {selectedIndex == 0 ? "start" : "end"};" class="row skill-toll-wrap flex-wrap">
             {#each selectedIndex == 0 ? skillsList : toolsList as item}
                 <div  class="column skill-toll-container">
-                    <div style="background-image: url({item.img});"class="skill-img"></div>
+                    <div style="background-image: url({item.img});" class="skill-img"></div>
                     <h2 style="text-align: center;">{item.text}</h2>
                 </div>
             {/each}
@@ -111,7 +111,9 @@ const toolsList = [
 		/* border: 2px solid #fff; */
 		
 	}
-
+.skill-img:hover {
+		background-color: #fff;
+	}
 	.skill-toll-wrap {
 		margin: 15px 0  0 0;
 		width:100%;
@@ -119,4 +121,5 @@ const toolsList = [
 	.skill-toll-container {
 		margin:  0 0.6%  25px 0.4%;
 	}
+
 </style>

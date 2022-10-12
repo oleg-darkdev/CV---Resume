@@ -6,7 +6,7 @@ export let selectedSection, values;
 
 
 
-<TileGroup style="max-width: 400px; width: 100%; margin-bottom: 30px;"
+<TileGroup style="max-width: 350px; width: 100%; margin-bottom: 30px;"
 	legend=""
 	on:select={({ detail }) => {
         (selectedSection = detail)
